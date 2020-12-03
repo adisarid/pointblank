@@ -8,6 +8,7 @@ autobriefs:
     pt: "Pré-condição aplicada"
     zh: "应用先决条件"
     ru: "Применяемое предварительное условие"
+    he: "התניה מופעלת"
   column_computed_text:
     en: "computed column"
     fr: "colonne calculée"
@@ -17,6 +18,7 @@ autobriefs:
     pt: "coluna calculada"
     zh: "计算后的列"
     ru: "Вычисленный столбец"
+    he: "עמודה מחושבת"
   values_text:
     en: "and {num_omitted} more"
     fr: "et {num_omitted} de plus"
@@ -26,6 +28,7 @@ autobriefs:
     pt: "e {num_omitted} mais"
     zh: "还有{num_omitted}个"
     ru: "И {num_omitted} больше"
+    he: ועוד {num_omitted}
   compare_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should be {operator} {values_text}."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} soient {operator} {values_text}."
@@ -35,6 +38,7 @@ autobriefs:
     pt: "Espera-se que os valores em {column_text} {column_computed_text} são {operator} {values_text}."
     zh: "预期在{column_text} {column_computed_text} 的值应当{operator} {values_text}。"
     ru: "Ожидайте, что значения в {column_text} {column_computed_text} должны быть {operator} {values_text}."
+    he: "צפה שערכים ב-{column_text} {column_computed_text} צריכים להיות {operator} {values_text}."
   compare_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should have been {operator} {values_text}."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} auraient dû être {operator} {values_text}."
@@ -44,6 +48,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falha onde os valores em {column_text} deveria ter sido {operator} {values_text}."
     zh: "错误过多，其中{column_text}中的值应当被 {operator} {values_text}。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} должны были быть {operator} {values_text}."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שהיו צריכים להיות {operator} {values_text}"
   in_set_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should be in the set of {values_text}."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} soient dans l'ensemble de {values_text}."
@@ -53,6 +58,7 @@ autobriefs:
     pt: "Espera-se que os valores em {column_text} {column_computed_text} devem estar no conjunto de {values_text}."
     zh: "预期在{column_text} {column_computed_text} 的值应当在集{values_text}中。"
     ru: "Ожидайте, что значения в {column_text} {column_computed_text} должны быть в наборе {values_text}."
+    he: "צפה שערכים ב-{column_text} {column_computed_text} צריכים להיות מבין {values_text}."
   in_set_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should have been in the set of {values_text}."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} auraient dû être dans l'ensemble de {values_text}."
@@ -62,6 +68,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falha onde os valores em {column_text} deveria ter sido no conjunto de {values_text}."
     zh: "错误过多，其中{column_text}中的值应当在集{values_text}中。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} должны были быть в наборе {values_text}."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שהיו צריכים להיות מבין {values_text}."
   not_in_set_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should not be in the set of {values_text}."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} ne soient pas dans l'ensemble de {values_text}."
@@ -71,6 +78,7 @@ autobriefs:
     pt: "Espera-se que os valores em {column_text} {column_computed_text} não estejam no conjunto de {values_text}."
     zh: "预期在{column_text} {column_computed_text} 的值应当不在集{values_text}中。"
     ru: "Ожидайте, что значения в {column_text} {column_computed_text} не должны быть в наборе {values_text}."
+    he: "צפה שערכים ב-{column_text} {column_computed_text} צריכים שלא להיות מבין {values_text}."
   not_in_set_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should not have been in the set of {values_text}."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} n'auraient pas dû être dans l'ensemble de {values_text}."
@@ -80,6 +88,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falha onde os valores em {column_text} não deveriam estar no conjunto de {values_text}."
     zh: "错误过多，其中{column_text}中的值应当不在集{values_text}中。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} не должны были быть в наборе {values_text}."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שלא היו צריכים להיות מבין {values_text}."
   between_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should be between {value_1} and {value_2}."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} soient comprises entre {value_1} et {value_2}."
@@ -89,6 +98,7 @@ autobriefs:
     pt: "Espera-se que os valores em {column_text} {column_computed_text} devem estar entre {value_1} e {value_2}."
     zh: "预期在{column_text} {column_computed_text} 的值应当在 {value_1}和 {value_2}之间。"
     ru: "Ожидайте, что значения в {column_text} {column_computed_text} должны находиться между {value_1} и {value_2}."
+    he: "צפה שערכים ב-{column_text} {columns_computed_text} צריכים בטווח של {value_1} ל-{value_2}."
   between_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should have been between {value_1} and {value_2}."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} auraient dû être comprises entre {value_1} et {value_2}."
@@ -98,6 +108,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste como falha, onde os valores em {column_text} deveria ter sido entre {value_1} e {value_2}."
     zh: "错误过多，其中{column_text}中的值应当在 {value_1}和 {value_2}之间。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} должны были находиться между {value_1} и {value_2}."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שהיו צריכים להיות בטווח של {value_1} ועד {value_2}."
   not_between_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should not be between {value_1} and {value_2}."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} ne soient pas comprises entre {value_1} et {value_2}."
@@ -107,6 +118,7 @@ autobriefs:
     pt: "Espera-se que os valores em {column_text} {column_computed_text} não deveria estar entre {value_1} e {value_2}."
     zh: "预期在{column_text} {column_computed_text} 的值应当不在 {value_1}和 {value_2}之间。"
     ru: "Ожидайте, что значения в {column_text} {column_computed_text} не должны находиться между {value_1} и {value_2}."
+    he: "צפה שערכים ב-{column_text} {column_computed_text} לא צריכים להיות בטווח של {value_1} ועד {value_2}."
   not_between_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should not have been between {value_1} and {value_2}."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} n'auraient pas dû être comprises entre {value_1} et {value_2}."
@@ -116,6 +128,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falha onde os valores em {column_text} não deveria estar entre {value_1} e {value_2}."
     zh: "错误过多，其中{column_text}中的值应当不在 {value_1}和 {value_2}之间。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} не должны были находиться между {value_1} и {value_2}."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שהיו צריכים מחוץ לטווח של {value_1} ועד {value_2}."
   null_expectation_text:
     en: "Expect that all values in {column_text} {column_computed_text} should be NULL."
     fr: "Attendez-vous à ce que toutes les valeurs de {column_text} {column_computed_text} soient NULL."
@@ -125,6 +138,7 @@ autobriefs:
     pt: "Espera-se que todos os valores em {column_text} {column_computed_text} sejam NULL."
     zh: "预期在{column_text} {column_computed_text} 的值应当为NULL。"
     ru: "Ожидайте, что все значения в {column_text} {column_computed_text} должны быть NULL."
+    he: "צפה שכל הערכים ב-{column_text} {column_computed_text} צריכים להיות NULL."
   null_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should have been NULL."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} auraient dû être NULL."
@@ -134,6 +148,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falha onde os valores em {column_text} são NULL."
     zh: "错误过多，其中{column_text}中的值应当为NULL。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} должны были быть NULL."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שערכיו צריכים להיות NULL."
   not_null_expectation_text:
     en: "Expect that all values in {column_text} {column_computed_text} should not be NULL."
     fr: "Attendez-vous à ce que toutes les valeurs de {column_text} {column_computed_text} ne soient pas NULL."
