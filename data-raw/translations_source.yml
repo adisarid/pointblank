@@ -158,6 +158,7 @@ autobriefs:
     pt: "Espera-se que todos os valores em {column_text} {column_computed_text} não sejam NULL."
     zh: "预期在{column_text} {column_computed_text} 的值应当不为NULL。"
     ru: "Ожидайте, что все значения в {column_text} {column_computed_text} не должны быть NULL."
+    he: "צפה שכל הערכים ב-{column_text} {column_computed_text} צריכים להיות שונים מ-NULL."
   not_null_failure_text:
     en: "Exceedance of failed test units where values in {column_text} should not have been NULL."
     fr: "Dépassement des unités de test ayant échoué où les valeurs dans {column_text} n'auraient pas dû être NULL."
@@ -167,6 +168,7 @@ autobriefs:
     pt: "Excedeu o número de unidades de teste com falhas onde os valores em {column_text} não são NULL."
     zh: "错误过多，其中{column_text}中的值应当不为NULL。"
     ru: "Превышение неудачных тестовых единиц, где значения в {column_text} не должны были быть NULL."
+    he: "חריגה של יחידות בדיקה שכשלו ב-{column_text} שערכיו צריכים להיות שונים מ-NULL."
   increasing_expectation_text:
     en: "Expect that values in {column_text} {column_computed_text} should be increasing."
     fr: "Attendez-vous à ce que les valeurs de {column_text} {column_computed_text} augmentent."
@@ -411,6 +413,7 @@ agent_report:
     pt: "Sem problemas de avaliação."
     zh: "没有评估问题。"
     ru: "Нет проблем с оценкой."
+    he: "לא אותרו בעיות."
   report_col_step:
     en: "STEP"
     fr: "ÉTAPE"
@@ -420,6 +423,7 @@ agent_report:
     pt: "PASSO"
     zh: "步（STEP）"
     ru: "ШАГ"
+    he: "צעד"
   report_col_steps:
     en: "STEPS"
     fr: "ÉTAPES"
@@ -429,6 +433,7 @@ agent_report:
     pt: "PASSOS"
     zh: "步（STEPS）"
     ru: "ШАГИ"
+    he: "צעדים"
   report_col_columns:
     en: "COLUMNS"
     fr: "COLONNES"
@@ -438,6 +443,7 @@ agent_report:
     pt: "COLUNAS"
     zh: "列"
     ru: "КОЛУМЫ"
+    he: "עמודות"
   report_col_values:
     en: "VALUES"
     fr: "VALEURS"
@@ -447,6 +453,7 @@ agent_report:
     pt: "VALORES"
     zh: "值"
     ru: "ЦЕННОСТИ"
+    he: "ערכים"
   report_column_schema:
     en: "SCHEMA"
     fr: "SCHÉMA"
@@ -456,6 +463,7 @@ agent_report:
     pt: "ESQUEMA"
     zh: "模式（SCHEMA）"
     ru: "СХЕМА"
+    he: "סכמה"
   report_r_col_types:
     en: "R TYPES"
     fr: "TYPES R"
@@ -465,6 +473,7 @@ agent_report:
     pt: "TIPOS R"
     zh: "R类型"
     ru: "R ТИПЫ"
+    he: "סוג עמודה (R)"
   report_r_sql_types:
     en: "SQL TYPES"
     fr: "TYPES SQL"
@@ -474,6 +483,7 @@ agent_report:
     pt: "TIPOS SQL"
     zh: "SQL类型"
     ru: "ВИДЫ SQL"
+    he: "סוג עמודה (SQL)"
 informant_report:
   pointblank_information_title_text:
     en: "Pointblank Information"
